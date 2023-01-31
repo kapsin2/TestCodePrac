@@ -29,6 +29,7 @@ import static com.example.spartamatching_01.entity.UserRoleEnum.USER;
 @RequiredArgsConstructor
 public class AdminService {
 
+    
     private final ClientRepository clientRepository;
     private final AdminRepository adminRepository;
     private final ApplicantRepository applicantRepository;
